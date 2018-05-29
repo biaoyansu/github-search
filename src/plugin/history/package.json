@@ -1,0 +1,13 @@
+{
+  "name": "history",
+  "version": "1.0.0",
+  "description": "",
+  "main": "history.js",
+  "scripts": {
+    "start": "../../../node_modules/.bin/webpack --entry ./test/test.js --output ./test/bundle.js -wd",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
