@@ -39,7 +39,7 @@ function search_user(on_succeed, on_fail, before, after) {
   if (before)
     before();
 
-  get.ajax({
+  send.ajax({
     url: url,
     headers: {
       Authorization: btoa('biaoyansu:8ffae19fc7496f6053cea02cfc365048b2f81d5a')
